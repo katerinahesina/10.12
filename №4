@@ -1,0 +1,7 @@
+a, b = int(input()), int(input())
+if a % 2 == 0 and b % 2 == 0:
+ print('четных чисел - ', (b-a) // 2 + 1)
+elif a % 2 == 1 and b % 2 == 1:
+ print('четных чисел - ', (b-a) // 2)
+elif a % 2 == 0 and b % 2 == 1:
+ print('четных чисел - ', (b-a) // 2 + 1)
